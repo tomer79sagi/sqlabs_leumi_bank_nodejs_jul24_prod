@@ -1,7 +1,7 @@
 let ws;
 
 function connectWebSocket() {
-    ws = new WebSocket('ws://localhost:10000');
+    ws = new WebSocket('ws://sqlabs-leumi-bank-nodejs-jul24-prod.onrender.com:10000');
 
     ws.onopen = () => {
         console.log('Connected to the server');
