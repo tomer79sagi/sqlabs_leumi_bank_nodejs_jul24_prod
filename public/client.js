@@ -1,7 +1,7 @@
 let ws;
 
 function connectWebSocket() {
-    ws = new WebSocket('ws://localhost:3001');
+    ws = new WebSocket('ws://localhost:10000');
 
     ws.onopen = () => {
         console.log('Connected to the server');
